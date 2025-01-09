@@ -1,0 +1,10 @@
+ping raspberry.local (192.168.178.60)
+username: sonh password: sonh
+scp -r . sonh@ip:~/Documents
+python3 -m venv dir
+
+for bahn api: pip install schiene
+for database: pip install tinydb
+for lcd: pip install RPLCD and smbus2
+
+sudo crontab -e
